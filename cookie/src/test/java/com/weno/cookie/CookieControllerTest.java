@@ -27,12 +27,14 @@ public class CookieControllerTest {
     }
 
     @Test
-    public void setCookie(){
+    public void setCookie() throws Exception {
         //given
         Cookie cookie = new Cookie("username", "wenoAfter");
 
+        mvc.perform(get("/set")
+                .cookie(cookie))
+                .andExpect(status().isOk());
+
     }
-
-
 
 }
