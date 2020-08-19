@@ -10,7 +10,7 @@
 
 ##  SpringBoot에서 Cookie 사용 방법
 
-우선 Spring spring initializr(https://start.spring.io/)에서 프로젝트를 만들어 줍니다.
+우선 spring initializr(https://start.spring.io/)에서 프로젝트를 만들어 줍니다.
 - build.gradle
 ```
 plugins {
@@ -49,6 +49,7 @@ test {
 
 - 프로젝트 구조
 
+<<<<<<< HEAD
 ![프로젝트 구조](./images/project-structure.PNG)
 
 
@@ -196,4 +197,7 @@ cookie.setSecure(true)를 주석처리하고 실행을하게 되면 개발자도
 
 
 
+=======
+![Alt text](./images/project-structure.PNG)
+>>>>>>> 8d74e069e7796c2e84b0537ea128a9d0de6997f9
 
