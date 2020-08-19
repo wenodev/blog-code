@@ -49,5 +49,5 @@ test {
 ```
 
 - 프로젝트 구조
-<img src="/images/project-structure.PNG" width="40%" alt=""></img>
+![Alt text](/images/project-structure.PNG)
 
