@@ -10,7 +10,7 @@
 
 ##  SpringBoot에서 Cookie 사용 방법
 
-우선 Spring spring initializr(https://start.spring.io/)에서 프로젝트를 만들어 줍니다.
+우선 spring initializr(https://start.spring.io/)에서 프로젝트를 만들어 줍니다.
 - build.gradle
 ```
 plugins {
