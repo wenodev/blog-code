@@ -184,20 +184,4 @@ cookie.setSecure(true)를 주석처리하고 실행을하게 되면 개발자도
  참고사이트   
  https://dzone.com/articles/how-to-use-cookies-in-spring-boot   
  https://docs.spring.io/spring-session/docs/current/reference/html5/guides/java-custom-cookie.html   
- https://interconnection.tistory.com/74   
- 
-
-
-
-
-
-
-
-
-
-
-
-=======
-![Alt text](./images/project-structure.PNG)
->>>>>>> 8d74e069e7796c2e84b0537ea128a9d0de6997f9
-
+ https://interconnection.tistory.com/74
