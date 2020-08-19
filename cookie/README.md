@@ -46,10 +46,7 @@ test {
 }
 
 ```
-
-- 프로젝트 구조
-
-<<<<<<< HEAD
+- 프로젝트 구조   
 ![프로젝트 구조](./images/project-structure.PNG)
 
 
