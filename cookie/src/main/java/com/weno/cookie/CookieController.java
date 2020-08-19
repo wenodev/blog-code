@@ -11,21 +11,21 @@ import javax.servlet.http.HttpServletResponse;
 public class CookieController {
 
     @GetMapping("/hello")
-    public String checkCookie(@CookieValue(value = "username", defaultValue = "wenoBefore") String username){
-        return "Hello! My name is : " + username;
+    public String checkCookie(@CookieValue(value = "username", defaultValue = "BeforeCookie") String username){
+        return "Hello! " + username;
     }
 
     @GetMapping("/setCookie")
     public String setCookie(HttpServletResponse response){
 
         //create a cookie
-        Cookie cookie = new Cookie("username", "wenoAfter");
+        Cookie cookie = new Cookie("username", "AfterCookie");
 
         //set cookie expiration
         cookie.setMaxAge(10); // expires in 10 seconds
 
         //set secure
-         cookie.setSecure(true); //https만 가능
+//        cookie.setSecure(true); //https만 가능
 
         //set HttpOnly
         cookie.setHttpOnly(true); // prevent cross-site scripting (XSS) attacks and are not accessible via JavaScript
@@ -37,3 +37,5 @@ public class CookieController {
     }
 
 }
+
+

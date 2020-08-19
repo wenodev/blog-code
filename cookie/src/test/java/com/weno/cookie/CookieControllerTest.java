@@ -22,7 +22,7 @@ public class CookieControllerTest {
 
     @Test
     public void getHello() throws Exception {
-        mvc.perform(get("/"))
+        mvc.perform(get("/hello"))
                 .andExpect(status().isOk());
     }
 
