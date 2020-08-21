@@ -10,7 +10,7 @@
 
 ##  SpringBoot에서 Cookie 사용 방법
 
-우선 spring initializr(https://start.spring.io/)에서 프로젝트를 만들어 줍니다.
+우선 spring initializr(https://start.spring.io/) 에서 프로젝트를 만들어 줍니다.
 - build.gradle
 ```
 plugins {
@@ -46,10 +46,7 @@ test {
 }
 
 ```
-
-- 프로젝트 구조
-
-<<<<<<< HEAD
+- 프로젝트 구조   
 ![프로젝트 구조](./images/project-structure.PNG)
 
 
@@ -103,7 +100,6 @@ public class CookieControllerTest {
 }
 ```
 
-- 처음엔 테스트 코드를 작성하는 작업이 시간이 오래 걸리고 귀찮지만 습간이 되면 생산성이 향상된다는걸 요즘 조금씩 느끼고 있습니다. 여러분들도 테스트 코드 작성에 시간을 투자하시는 걸 추천드립니다.
 - Mockito를 이용하여 test코드를 작성하였습니다.
 - 위의 코드는 쿠키와는 관련이 없는 코드이니 생략이 가능합니다.
 - 실행화면
@@ -184,4 +180,5 @@ cookie.setSecure(true)를 주석처리하고 실행을하게 되면 개발자도
  참고사이트   
  https://dzone.com/articles/how-to-use-cookies-in-spring-boot   
  https://docs.spring.io/spring-session/docs/current/reference/html5/guides/java-custom-cookie.html   
- https://interconnection.tistory.com/74
+ https://interconnection.tistory.com/74   
+ https://ko.javascript.info/cookie
