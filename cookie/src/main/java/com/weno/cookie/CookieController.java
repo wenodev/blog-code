@@ -19,7 +19,7 @@ public class CookieController {
     public String setCookie(HttpServletResponse response){
 
         //create a cookie
-        Cookie cookie = new Cookie("username", "AfterCookie");
+        Cookie cookie = new Cookie();
 
         //set cookie expiration
         cookie.setMaxAge(10); // expires in 10 seconds
