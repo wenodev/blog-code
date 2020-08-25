@@ -14,7 +14,6 @@ public class BasicStack {
 
         System.out.println("스택 사이즈 : " + stack.size());
 
-
         System.out.println(stack.search(1));
 
         System.out.println(stack.empty());

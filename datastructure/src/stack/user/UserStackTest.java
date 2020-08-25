@@ -8,10 +8,7 @@ public class UserStackTest {
             userStack.push(i);
             System.out.println(userStack.peek());
         }
-
-
+        userStack.pop();
         System.out.println(userStack.peek());
-
-
     }
 }
