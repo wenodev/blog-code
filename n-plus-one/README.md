@@ -26,8 +26,6 @@ public List<Product> findAllFetchJoin() {
 }
 ```
 
-참고1  : [https://jojoldu.tistory.com/165](https://jojoldu.tistory.com/165)
-
-참고2 : [https://incheol-jung.gitbook.io/docs/q-and-a/spring/n+1](https://incheol-jung.gitbook.io/docs/q-and-a/spring/n+1)
-
-참고3: [https://tecoble.techcourse.co.kr/post/2021-08-08-basic-querydsl/](https://tecoble.techcourse.co.kr/post/2021-08-08-basic-querydsl/)
+참고1  : [https://jojoldu.tistory.com/165](https://jojoldu.tistory.com/165)  
+참고2 : [https://incheol-jung.gitbook.io/docs/q-and-a/spring/n+1](https://incheol-jung.gitbook.io/docs/q-and-a/spring/n+1)  
+참고3: [https://tecoble.techcourse.co.kr/post/2021-08-08-basic-querydsl/](https://tecoble.techcourse.co.kr/post/2021-08-08-basic-querydsl/)  
