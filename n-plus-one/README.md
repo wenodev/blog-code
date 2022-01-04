@@ -18,7 +18,7 @@ JOIN을 작성하면 한번의 쿼리에 데이터를 가져올 수 있기 때�
 예시)   
 ```java
 @Override
-public List<Owner> findAllFetchJoin() {
+public List<Product> findAllFetchJoin() {
     return queryFactory.selectFrom(product)
             .innerJoin(product.images)
             .fetchJoin()
